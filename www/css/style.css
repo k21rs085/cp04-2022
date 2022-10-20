@@ -42,27 +42,33 @@
         position:absolute; top:10px; 
         left:10px; right:10px;
     }
-    
+
     #btnA {
-        font-size: 20px;
+        font-size: 30px;
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
-        background-color: yellow;
-        color: green;
+        background-color:blue;
+        color: white;
     }
     
     #btnB {
-        font-size: 20px;
+        font-size: 30px;
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        background-color: red;
+        color: white;
     }
 
     #btnC {
-        font-size: 10px;
+        font-size: 30px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        background-color: black;
+        color: white;
     }
 
     #btnD {
-        font-size: 10px;
-        position:absolute; top:500px; left:70%; width:28%; height:60px; 
+        font-size: 80px;
+        position:absolute; top:500px; left:10%; width:80%; height:100px; 
+        background-color: chartreuse;
+        color: white;
     }
     
     #minute {
@@ -82,7 +88,7 @@
     }
 
     button{
-        color: blue;
+        color: white;
         font-family: Times;
         border-radius: 20px;
     }

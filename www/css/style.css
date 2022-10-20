@@ -92,7 +92,7 @@
     input[type=number] {text-align: right;}
 
     body{
-        background-color: skyblue;
+        background-color: cornflowerblue;
     }
 
     button{
@@ -100,6 +100,7 @@
         font-family: Times;
         border-radius: 20px;
     }
+
 
 
 

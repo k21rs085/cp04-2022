@@ -180,6 +180,8 @@
             img.onload = function() {
                 ctx.drawImage(img, 0, 0, 300, 300);
 
+            
+
                 var audio = new Audio();
                 audio.src = "pin.wav";
                 audio.play();
@@ -188,6 +190,8 @@
 
 
         }
+
+
 
         // ButtonAがクリックされた時の処理
         function btnAClick(e) {
@@ -213,10 +217,18 @@
             $("#remain").html("残り時間： " + period);
 
         }
+    //追加
 function btnDClick(e){
     alarm();
+    active = false;
     
+    
+
+
+
 }
+    
+
 
 
 
@@ -234,6 +246,7 @@ function btnDClick(e){
                     alarm();
 
                 }
+                
 
 
             }
@@ -246,15 +259,16 @@ function btnDClick(e){
 
 <body>
     <canvas id="mycanvas" width="200" height="200">Test</canvas>
+    <canvas id="mycar"  width="700" height="700">Test</canvas>
 
     <div id="minuteStr">〇</div>
     <div id="secondStr">〇</div>
 
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
-    <button id="btnA">Start</button>
-    <button id="btnB">Stop</button>
-    <button id="btnC">Set</button>
+    <button id="btnA">開始</button>
+    <button id="btnB">停止</button>
+    <button id="btnC">セット</button>
 
     <button id="btnD">追加</button> 
     <input type="number" id="minute" value=0>
